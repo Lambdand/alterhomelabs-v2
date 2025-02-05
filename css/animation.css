@@ -33,6 +33,7 @@
 
 
 /* Seccond animation (rectanlge notch) */
+
 .hidesq1 {
     width: 50px;
     height: 50px;
@@ -40,48 +41,38 @@
     position: fixed;
     top: 400px;
     left: 760px;
+    z-index: 2;
 }
 
 .hidesq2 {
-    width: 50px;
+    width: 100px;
     height: 50px;
     background-color: rgb(9, 18, 19);
     position: fixed;
     top: 350px;
-    left: 810px;
+    left: 760px;
+    z-index: 2;
 }
 
 .hidesq3 {
     width: 50px;
     height: 50px;
     background-color: rgb(9, 18, 19);
+    border-color: white;
     position: fixed;
-    top: 356.6px;
-    left: 766.6px;
+    top: 358px;
+    left: 768px;
     rotate: -45deg;
-
-    animation-name: notch2;
-    animation-duration: 506ms;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;
-    animation-timing-function: linear;
-}
-
-
-.notch1 {
-    width: 50px;
-    height: 2.5px;
-    background-color: white;
-    position: fixed;
-    rotate: -45deg;
-    top: 399px;
-    left: 785px;
-    z-index: -1;
+    border-top-width: 0px;
+    border-bottom-width: 2.5px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    z-index: 1;
 
     animation-name: notch1;
-    animation-duration: .5s;
+    animation-duration: 0.5s;
     animation-fill-mode: forwards;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
     animation-timing-function: linear;
 }
 
@@ -89,30 +80,22 @@
     0% {
 
     }
-    100%{
-    top: 411.5px;
-    left: 796.5px;
-    }
-}
-
-@keyframes notch2 {
-    0% {
-
-    }
     100% {
-    top: 368.8px;
-    left: 778.8px;
+    top: 370px;
+    left: 780px;
     }
 }
+
 
 
 .hidesq4 {
     width: 50px;
-    height: 50px;
+    height: 100px;
     background-color: rgb(9, 18, 19);
     position: fixed;
     top: 450px;
     left: 1110px;
+    z-index: 2;
 }
 
 .hidesq5 {
@@ -122,59 +105,38 @@
     position: fixed;
     top: 500px;
     left: 1060px;
+    z-index: 2;
 }
 
 .hidesq6 {
     width: 50px;
     height: 50px;
     background-color: rgb(9, 18, 19);
+    border-color: white;
     position: fixed;
-    top: 493.6px;
-    left: 1102.6px;
+    top: 494px;
+    left: 1104px;
     rotate: -45deg;
+    border-top-width: 2.5px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    z-index: 1;
 
-    animation-name: notch4;
-    animation-duration: .6s;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;
-    animation-timing-function: linear;
-}
-
-
-.notch2 {
-    width: 50px;
-    height: 2.5px;
-    background-color: white;
-    position: fixed;
-    rotate: -45deg;
-    top: 503px;
-    left: 1087px;
-    z-index: -1;
-
-    animation-name: notch3;
+    animation-name: notch2;
     animation-duration: .5s;
     animation-fill-mode: forwards;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
     animation-timing-function: linear;
 }
 
-@keyframes notch3 {
-    0% {
-
-    }
-    100%{
-    top: 487px;
-    left: 1071px;
-    }
-}
-
-@keyframes notch4 {
+@keyframes notch2 {
     0% {
 
     }
     100% {
-    top: 480.6px;
-    left: 1089.6px;
+    top: 480px;
+    left: 1090px;
     }
 }
 
