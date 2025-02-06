@@ -1,0 +1,18 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.font1 {
+    font-family: "Allerta Stencil", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.boottext {
+    font-size: 14mm;
+    position: fixed;
+    z-index: 2;
+    top: 40.5vh;
+}
