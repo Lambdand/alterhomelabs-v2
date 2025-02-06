@@ -2,8 +2,8 @@
 /* First animation (rectangle pop up) */
 
 .boot1 {
-    left: 810px;
-    top: 400px;
+    left: 42vw;
+    top: 42vh;
     width: 0px;
     height: 0px;
     border-width: 4px;
@@ -41,8 +41,8 @@
     height: 50px;
     background-color: rgb(9, 18, 19);
     position: fixed;
-    top: 400px;
-    left: 760px;
+    top: 42vh;
+    left: 39.4vw;
     z-index: 2;
 }
 
@@ -51,8 +51,8 @@
     height: 50px;
     background-color: rgb(9, 18, 19);
     position: fixed;
-    top: 350px;
-    left: 760px;
+    top: 36.6vh;
+    left: 39.4vw;
     z-index: 2;
 }
 
@@ -62,8 +62,8 @@
     background-color: rgb(9, 18, 19);
     border-color: white;
     position: fixed;
-    top: 356px;
-    left: 766px;
+    top: 37.4vh;
+    left: 82vh;
     rotate: -45deg;
     border-top-width: 0px;
     border-bottom-width: 4px;
@@ -78,13 +78,14 @@
     animation-timing-function: ease;
 }
 
+
 @keyframes notch1 {
     0% {
 
     }
     100% {
-    top: 370px;
-    left: 780px;
+    top: 39.4vh;
+    left: 84vh;
     }
 }
 
@@ -95,8 +96,8 @@
     height: 100px;
     background-color: rgb(9, 18, 19);
     position: fixed;
-    top: 450px;
-    left: 1110px;
+    top: 47.4vh;
+    left: 57.6vw;
     z-index: 2;
 }
 
@@ -105,8 +106,8 @@
     height: 50px;
     background-color: rgb(9, 18, 19);
     position: fixed;
-    top: 500px;
-    left: 1060px;
+    top: 52.7vh;
+    left: 55vw;
     z-index: 2;
 }
 
@@ -116,8 +117,8 @@
     background-color: rgb(9, 18, 19);
     border-color: white;
     position: fixed;
-    top: 494px;
-    left: 1104px;
+    top: 52vh;
+    left: 118vh;
     rotate: -45deg;
     border-top-width: 4px;
     border-bottom-width: 0px;
@@ -137,8 +138,8 @@
 
     }
     100% {
-    top: 480px;
-    left: 1090px;
+    top: 50vh;
+    left: 116vh;
     }
 }
 
