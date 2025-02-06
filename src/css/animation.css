@@ -62,8 +62,8 @@
     background-color: rgb(9, 18, 19);
     border-color: white;
     position: fixed;
-    top: 358px;
-    left: 768px;
+    top: 356px;
+    left: 766px;
     rotate: -45deg;
     border-top-width: 0px;
     border-bottom-width: 4px;
@@ -75,7 +75,7 @@
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
     animation-delay: 1.5s;
-    animation-timing-function: linear;
+    animation-timing-function: ease;
 }
 
 @keyframes notch1 {
@@ -129,7 +129,7 @@
     animation-duration: .5s;
     animation-fill-mode: forwards;
     animation-delay: 1.5s;
-    animation-timing-function: linear;
+    animation-timing-function: ease;
 }
 
 @keyframes notch2 {
