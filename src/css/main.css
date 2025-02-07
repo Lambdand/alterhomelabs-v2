@@ -10,24 +10,16 @@
     font-style: normal;
 }
 
-.hidesq7 {
+.sq {
     width: 50px;
     height: 50px;
     background-color: rgb(9, 18, 19);
     position: fixed;
-    rotate: -45deg;
-    top: 50.5vh;
-    left: 126.5vh;
-    z-index: -1;
 }
 
-.hidesq8 {
-    width: 50px;
+.sq2 {
+    width: 100px;
     height: 50px;
     background-color: rgb(9, 18, 19);
     position: fixed;
-    rotate: -45deg;
-    top: 40.3vh;
-    left: 93.9vh;
-    z-index: -1;
 }

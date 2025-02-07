@@ -1,0 +1,80 @@
+
+/* Words popping in */
+
+.hidesq7 {
+    rotate: -45deg;
+    top: 50.5vh;
+    left: 126.5vh;
+    z-index: -1;
+}
+
+.hidesq8 {
+    rotate: -45deg;
+    top: 40.3vh;
+    left: 93.9vh;
+    z-index: -1;
+}
+
+.boottext1 {
+    font-size: 15mm;
+    position: fixed;
+    z-index: -2;
+    top: 43.2vh;
+    left: 79.4vh;
+    opacity: 0%;
+
+    animation-name: boottext1;
+    animation-duration: .4s;
+    animation-delay: 1.4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes boottext1 {
+    0% {
+        opacity: 0%;
+    }
+    2% {
+        opacity: 100%;
+    }
+    8% {
+        opacity: 0%;
+    }
+    100% {
+    opacity: 100%;
+    }
+}
+
+.boottext2 {
+    font-size: 14mm;
+    color: rgb(9, 18, 19);
+    position: fixed;
+    z-index: -2;
+    top: 43.5vh;
+    left: 97.2vh;
+    opacity: 0%;
+    background-color: rgb(72, 214, 62);
+    border-color: rgb(72, 214, 62);
+    border-width: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    animation-name: boottext2;
+    animation-duration: .4s;
+    animation-delay: 1.4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes boottext2 {
+    0% {
+        opacity: 0%;
+    }
+    2% {
+        opacity: 100%;
+    }
+    8% {
+        opacity: 0%;
+    }
+    100% {
+    opacity: 100%;
+    }
+}

@@ -1,0 +1,32 @@
+
+/* Outline Appears */
+
+.boot1 {
+    left: 37vw;
+    top: 42vh;
+    width: 0px;
+    height: 0px;
+    border-width: 4px;
+    border-color: white;
+    position: fixed;
+
+    animation-name: boot1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out  ;
+}
+
+@keyframes boot1 {
+    0% {
+        
+    }
+    20% {
+        border-width: 4px;
+        width: 500px;
+    }
+    100% {
+        border-width: 4px;
+        width: 500px;
+        height: 110px;
+    }
+}

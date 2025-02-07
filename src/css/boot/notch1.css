@@ -1,0 +1,43 @@
+
+/* First Notch, top left */
+
+.hidesq1 {
+    top: 42vh;
+    left: 34.4vw;
+    z-index: 2;
+}
+
+.hidesq2 {
+    top: 36.6vh;
+    left: 34.4vw;
+    z-index: 2;
+}
+
+.hidesq3 {
+    border-color: white;
+    top: 37.4vh;
+    left: 71.6vh;
+    rotate: -45deg;
+    border-top-width: 0px;
+    border-bottom-width: 4px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    z-index: 1;
+
+    animation-name: notch1;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+}
+
+
+@keyframes notch1 {
+    0% {
+
+    }
+    100% {
+    top: 39.4vh;
+    left: 73.8vh;
+    }
+}
