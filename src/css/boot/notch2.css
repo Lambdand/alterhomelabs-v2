@@ -24,11 +24,7 @@
     border-right-width: 0px;
     z-index: 1;
 
-    animation-name: notch2;
-    animation-duration: .3s;
-    animation-fill-mode: forwards;
-    animation-delay: 1s;
-    animation-timing-function: ease;
+    animation: notch2 .3s ease 1s forwards;
 }
 
 @keyframes notch2 {
@@ -38,5 +34,15 @@
     100% {
     top: 51.1vh;
     left: 127.2vh;
+    }
+}
+
+@keyframes notch4 {
+    0% {
+
+    }
+    100% {
+    top: 51.4vh;
+    left: 127.5vh;
     }
 }

@@ -2,42 +2,37 @@
 /* First Notch, top left */
 
 .hidesq1 {
-    top: 42vh;
-    left: 34.4vw;
+    top: calc(100vh - 58.1vh);
+    left: calc(100vw - 65.5vw);
     z-index: 2;
 }
 
 .hidesq2 {
-    top: 36.6vh;
-    left: 34.4vw;
+    top: calc(100vh - 63vh);
+    left: calc(100vw - 65.6vw);
     z-index: 2;
 }
 
 .hidesq3 {
     border-color: white;
-    top: 37.4vh;
-    left: 71.6vh;
+    top: calc((100vh - 58vh));
+    left: calc((100vw - 63vw));
     rotate: -45deg;
     border-top-width: 0px;
     border-bottom-width: 4px;
     border-left-width: 0px;
     border-right-width: 0px;
-    z-index: 1;
+    z-index: 3;
 
-    animation-name: notch1;
-    animation-duration: 0.3s;
-    animation-fill-mode: forwards;
-    animation-delay: 1s;
-    animation-timing-function: ease;
+    animation: notch1 .6s ease 1.4s forwards;
 }
 
-
-@keyframes notch1 {
+/* @keyframes notch1 {
     0% {
 
     }
     100% {
-    top: 39.4vh;
-    left: 73.8vh;
+    top: calc((100vh - 58vh) - 2.6vh);
+    left: calc((100vw - 63vw) - 1.2vw);
     }
 }

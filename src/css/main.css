@@ -11,15 +11,22 @@
 }
 
 .sq {
-    width: 50px;
-    height: 50px;
-    background-color: rgb(9, 18, 19);
+    width: 2.5vw;
+    height: 5vh;
+    background-color: blue;
     position: fixed;
 }
 
 .sq2 {
-    width: 100px;
-    height: 50px;
-    background-color: rgb(9, 18, 19);
+    width: 10vh;
+    height: 5vh;
+    background-color: red;
+    position: fixed;
+}
+
+.sq3 {
+    width: 2.5vw;
+    height: 2.5vw;
+    background-color: blue;
     position: fixed;
 }

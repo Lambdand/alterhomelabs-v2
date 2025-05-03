@@ -24,20 +24,21 @@
     opacity: 0%;
 
     animation-name: boottext1;
-    animation-duration: .4s;
-    animation-delay: 1.4s;
+    animation-duration: .25s;
+    animation-delay: 1.6s;
     animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes boottext1 {
     0% {
         opacity: 0%;
     }
-    2% {
+    25% {
         opacity: 100%;
     }
-    8% {
-        opacity: 0%;
+    50% {
+        opacity: 10%;
     }
     100% {
     opacity: 100%;
@@ -59,20 +60,22 @@
     padding-right: 5px;
 
     animation-name: boottext2;
-    animation-duration: .4s;
-    animation-delay: 1.4s;
+    animation-duration: .35s;
+    animation-delay: 1.6s;
     animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
 }
+
 
 @keyframes boottext2 {
     0% {
         opacity: 0%;
     }
-    2% {
+    25% {
         opacity: 100%;
     }
-    8% {
-        opacity: 0%;
+    50% {
+        opacity: 30%;
     }
     100% {
     opacity: 100%;

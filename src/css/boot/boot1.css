@@ -2,18 +2,15 @@
 /* Outline Appears */
 
 .boot1 {
-    left: 37vw;
-    top: 42vh;
-    width: 0px;
-    height: 0px;
+    left: calc(100vw - 63vw);
+    top: calc(100vh - 58vh);
+    width: 0vw;
+    height: 0vh;
     border-width: 4px;
     border-color: white;
     position: fixed;
 
-    animation-name: boot1;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out  ;
+    animation:boot1 1.4s ease-in-out forwards;
 }
 
 @keyframes boot1 {
@@ -22,11 +19,11 @@
     }
     20% {
         border-width: 4px;
-        width: 500px;
+        width: 26vw;
     }
     100% {
         border-width: 4px;
-        width: 500px;
-        height: 110px;
+        width: 26vw;
+        height: 11.8vh;
     }
 }
