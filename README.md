@@ -1,2 +1,2 @@
 # alterhomelabs-v2
-nothing for now will update
+Testing ground and design for the actual website
