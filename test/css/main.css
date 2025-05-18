@@ -1,0 +1,73 @@
+:root {
+    --w:'';
+    --h:'';
+}
+
+#debug1 {
+    color: white;
+    font-size: large;
+}
+
+#main {
+    animation-name: main;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+
+    opacity: 0%;
+}
+
+@keyframes main {
+    from {
+
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+#box11 {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    left: calc((var(--w) / 2) - 870px);
+    top: calc((var(--h) / 2) - 387px);
+    width: 250px;
+    height: 300px;
+    position: fixed;
+
+}
+
+#box12 {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    left: calc((var(--w) / 2) - 570px);
+    top: calc((var(--h) / 2) - 387px);
+    width: 700px;
+    height: 300px;
+    position: fixed;
+
+}
+
+#box13 {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    left: calc((var(--w) / 2));
+    top: calc((var(--h) / 2) + 500px);
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+}
+
+#box14 {
+    left: calc((var(--w) / 2) - 50px);
+    top: calc((var(--h) / 2) - 50px);
+    width: 250px;
+    height: 300px;
+    position: fixed;
+    background-image: url(/test/svg/Board.svg);
+
+}
